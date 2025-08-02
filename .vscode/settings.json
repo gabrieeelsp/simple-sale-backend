@@ -1,0 +1,41 @@
+{
+  // Zoom general
+  "window.zoomLevel": 2,
+  // Apariencia
+  "workbench.colorCustomizations": {
+    // "titleBar.activeBackground": "#1d3557",
+    // "titleBar.activeForeground": "#ffffff",
+    "activityBar.background": "#1d3557",
+    // "sideBar.background": "#0d1b2a",
+    // "editor.background": "#0b1a26"
+  },
+  // "workbench.activityBar.visible": true,
+  // "workbench.sideBar.location": "left",
+  // Nombre del proyecto en la barra de título
+  // "window.title": "${rootName}${separator}${appName}",
+  // Fuente y tamaño
+  // "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
+  // "editor.fontFamily": "Fira Code, Menlo, Consolas, 'Courier New', monospace",
+  // "editor.fontLigatures": true,
+  // Minimapa
+  // "editor.minimap.enabled": true,
+  // "editor.minimap.scale": 1,
+  // Autoformato y guardado
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  // Identación
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // Validaciones
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  // Archivos ignorados visualmente
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}
